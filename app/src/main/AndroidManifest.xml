@@ -4,7 +4,7 @@
     package="com.azure.coolweather.android">
 
     <dist:module dist:instant="true" />
-
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:name="org.litepal.LitePalApplication"
         android:allowBackup="true"
