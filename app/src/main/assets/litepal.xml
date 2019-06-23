@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<litepal>
+    <dbname value="cool_weather"/> <!-- 指定数据库名，版本指定1，将三个实体类添加到映射列表 -->
+    <version value="1"/>
+    <list>
+        <mapping class="com.azure.coolweather.android.db.City"/>
+        <mapping class="com.azure.coolweather.android.db.County"/>
+        <mapping class="com.azure.coolweather.android.db.Province"/>
+    </list>
+</litepal>
